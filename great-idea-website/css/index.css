@@ -65,25 +65,109 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-*{
-	border: 1px solid blue !important; 
+/* *{
+	background-color: blue !important; 
+	border: solid black 5px !important;
+}
+*/
+body{
+	width: 90%;
+	margin: auto;
+	padding: 5px;
 }
 
 nav{
 	text-align:center;
-		
+	margin-left:250px;	
 	width: 60%;
 	
 }
 
 nav a{
-	margin: auto 5px;
+	margin: auto 15px;
 	display: inline-block;
 	float: left;
+	text-align:center;
 }
 
-.logo img{
-	display: content-box;
+.logo {
+	display: inline;
+	float: right;
+	margin:0px;
+	padding:0px;
+	margin-right:20px;
+	margin-bottom:0px;
+}
 
-	margin:0;
+#circleCode{
+	display:block;
+	width: 350px;
+	height: 350px;
+	float:right;
+	margin:0px;
+	margin-left:10px;
+	margin-top: 50px;
+	padding:0px;
+}
+
+#tagLineBox{
+	font-size:50px;
+	text-align:center;
+	margin-top:30px;
+	padding:1%;
+	width: 48%;
+	height: 400px;
+	display: inline-block;
+}
+
+hr{
+	clear: both;
+}
+
+header{
+	padding: 0px;
+	margin: 0px;
+}
+
+#featuresBox{
+	display:inline-block;
+	width: 49%;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 10px;
+}
+
+#aboutBox{
+	display:inline-block;
+	width: 49%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#servicesBox{
+	display:inline-block;
+	width: 30%;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 25px;
+}
+
+#productsBox{
+	display:inline-block;
+	width: 30%;
+	margin: 0px 2px;
+	padding: 0px;
+}
+
+#visionBox{
+	display:inline-block;
+	width: 30%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.middle-img{
+	display:block;
+	margin: 10px auto;
+
 }
