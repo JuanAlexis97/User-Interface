@@ -76,11 +76,12 @@ body{
 	padding: 5px;
 }
 
+
 nav{
 	text-align:center;
 	margin-left:250px;	
 	width: 60%;
-	
+
 }
 
 nav a{
@@ -88,6 +89,11 @@ nav a{
 	display: inline-block;
 	float: left;
 	text-align:center;
+	
+}
+
+#navBox{
+ background-color: blue;
 }
 
 .logo {
@@ -111,9 +117,9 @@ nav a{
 }
 
 #tagLineBox{
-	font-size:50px;
+	font-size:60px;
 	text-align:center;
-	margin-top:30px;
+	margin-top:100px;
 	padding:1%;
 	width: 48%;
 	height: 400px;
@@ -171,3 +177,32 @@ header{
 	margin: 10px auto;
 
 }
+
+.footerSection{
+	text-align: center;
+}
+
+.footerSection p{
+	margin-top: 10px;
+}
+
+button{
+	border: solid 5px black;
+	font-size: 30px ;
+	height: 100px;
+	padding: 30px;
+	color: white;
+	cursor: pointer;
+	background-color:Brown;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+button:hover{
+background-color: Maroon;
+}
+
+button:active {
+	background-color: Maroon;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
